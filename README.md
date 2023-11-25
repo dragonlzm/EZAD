@@ -1,8 +1,9 @@
-## Introduction
-This codebase hosts the project of Efficient Feature Distillation for Zero-shot Detection (EZSD), as presented in our paper:
+# Efficient Feature Distillation for Zero-shot Annotation Object Detection (EZAD)
+This codebase hosts the project of Efficient Feature Distillation for Zero-shot Annotation Object Detection (EZAD), as presented in our paper:
 
-    Efficient Feature Distillation for Zero-shot Detection;
+    Efficient Feature Distillation for Zero-shot Annotation Object Detection;
     Zhuoming Liu, Xuefeng Hu, Ram Nevatia;
+    The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024.
     arXiv preprint arXiv:2303.12145
 
 The full paper is available at: [https://arxiv.org/abs/2303.12145](https://arxiv.org/abs/2303.12145). 
@@ -113,6 +114,9 @@ For LVIS dataset, freq(base)/comm+rare(novel), you can use the following command
 
     sbatch hpc_script/two_stage_model/mask_rcnn_distillation_lvis_freq_comm.sh
 
+
+## Acknowledgement 
+This material is based on research sponsored by Air Force Research Laboratory (AFRL) under agreement number FA8750-19-1-1000. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation therein. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policiesor endorsements, either expressedor implied, of Air ForceLaboratory, DARPA or the U.S.Government.
 
 ## License
 For academic use only. For commercial use, please contact the authors. 
